@@ -1,6 +1,7 @@
 package j11_Arrays.Tasks;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class _20_Arrayboth_Ends {
 
@@ -15,6 +16,13 @@ public class _20_Arrayboth_Ends {
     Sonuç bu şekilde olmalıdır. [1, 4]
       */
         //Kodu aşağıya yazınız..
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Array in elemanlarini giriniz (elemanlarin aralarinda bir bosluk birakiniz) : ");
+        String input = scan.nextLine();
+        String[] arr = input.split(" ");
+        String[] newArr = {(arr[0]),(arr[arr.length - 1])};
+        System.out.println("Arrays.toString(newArr) = " + Arrays.toString(newArr));
 
 
     }

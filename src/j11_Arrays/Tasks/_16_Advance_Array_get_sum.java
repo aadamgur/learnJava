@@ -10,6 +10,17 @@ public class _16_Advance_Array_get_sum {
         Sayıların toplamını yazdırın.
          */
 
+        String price = "$12 $23 $10 $2 $5 $2";
+
+        int sum = 0;
+
+        String[] arr = price.replaceAll(" ","").split("\\$");
+        for (int i = 0; i < arr.length; i++) {
+            sum += Integer.parseInt(arr[i]);
+        }
+        System.out.println("sum = " + sum);
+
+
         //Kodu aşağıya yazınız.
 
 
