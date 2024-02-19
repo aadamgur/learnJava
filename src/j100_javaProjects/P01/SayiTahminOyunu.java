@@ -25,7 +25,7 @@ public class SayiTahminOyunu {
 
             if (tahmin < 0 || tahmin > 100) {
                 System.out.println("Lütfen 0 ile 100 arasında bir sayı girin.");
-                continue; // Geçerli bir sayı girilene kadar döngüyü devam ettir
+                continue; // Geçerli bir sayı girilene kadar döngüyü devam ettir.
             }
 
             denemeSayisi++;
