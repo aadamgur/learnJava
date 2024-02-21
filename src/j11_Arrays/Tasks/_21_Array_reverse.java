@@ -23,6 +23,18 @@ public class _21_Array_reverse {
         Integer number = scan.nextInt();
         String[] arr = Integer.toString(number).split("");
 
+        String reversedText = "";
+
+        for (int i = arr.length - 1; i >= 0; i--) {
+            reversedText += i;
+        }
+
+        System.out.println(reversedText);
+
+
+
+
+
 
 
 
