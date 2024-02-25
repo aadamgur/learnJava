@@ -15,9 +15,21 @@ public class Task14 {
          */
 
 
-
         String str = "ade1r4d3";
+        int sum = sumOfNumbersInString(str);
+        System.out.println("sum = " + sum);
 
+
+    }
+
+    private static int sumOfNumbersInString(String str) {
+        int sum = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (Character.isDigit(str.charAt(i))) {
+                sum += Integer.valueOf(String.valueOf(str.charAt(i)));
+            }
+        }
+        return sum;
     }
 
 

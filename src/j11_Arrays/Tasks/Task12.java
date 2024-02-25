@@ -14,8 +14,17 @@ public class Task12 {
         int arr[] = {2, 6, 4, 5, 8, 9};
 
 
+        System.out.println(Arrays.toString(square(arr)));
 
 
+    }
+
+    private static int[] square(int[] array) {
+        int[] newArr = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            newArr[i] = (int) Math.pow(array[i],2);
+        }
+        return newArr;
     }
 
 }
