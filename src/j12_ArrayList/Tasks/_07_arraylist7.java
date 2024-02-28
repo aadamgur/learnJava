@@ -2,6 +2,7 @@ package j12_ArrayList.Tasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class _07_arraylist7 {
 
@@ -23,6 +24,23 @@ public class _07_arraylist7 {
 
     public static void main(String[] args) {
 
+        List<Integer> arrList1 = new ArrayList<>(List.of(3, 2, 5, 6));
+        List<Integer> arrList2 = new ArrayList<>(List.of(5, 8, 9));
+
+        List<Integer> commonValuest = common_values(arrList1, arrList2);
+        System.out.println(commonValuest);
+
+
+    }
+
+    private static List<Integer> common_values(List<Integer> arrList1, List<Integer> arrList2) {
+        List<Integer> commonValues = new ArrayList<>();
+        for (Integer each : arrList1) {
+            if (arrList2.contains(each)) {
+                commonValues.add(each);
+            }
+        }
+        return commonValues;
 
     }
 }
