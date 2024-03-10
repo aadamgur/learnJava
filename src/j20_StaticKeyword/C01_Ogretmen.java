@@ -38,8 +38,6 @@ public class C01_Ogretmen {
         System.out.println("Baska derdin mi yoktu arkadasim");
     }
 
-
-
-
-
+    public C01_Ogretmen() {
+    }
 }

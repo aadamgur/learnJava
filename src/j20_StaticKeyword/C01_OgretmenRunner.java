@@ -16,6 +16,9 @@ public class C01_OgretmenRunner {
         System.out.println("t2.tecrube = " + t2.tecrube);//13
         System.out.println("t2.isim = " + t2.isim);//Merve
         System.out.println("t2.okulIsmi = " + t2.okulIsmi);//Sivas Anandolu Lisesi
-        
+        C01_Ogretmen t3=new C01_Ogretmen();
+        System.out.println("t3.tecrube = " + t3.tecrube);//0
+        System.out.println("t3.isim = " + t3.isim);//null
+
     }
 }

@@ -1,6 +1,6 @@
 package j19_Constructor;
 
-import j01_Variables.C01_HelloWord;
+
 
 public class C01_Constructor {//class level
      /*
@@ -18,7 +18,6 @@ public class C01_Constructor {//class level
     String str;//class levelda obj variable (initial edilmemis default deger alan) tanimlandi
     String selam="Herkese selamlar bolca offerlar";//class levelda obj variable (initial edilmis) tanimladi
     //C01_Constructor obj1=new C01_Constructor();//class levelda p'siz const create edildi
-    C01_HelloWord obj99=new C01_HelloWord();//haricten bir p'siz bir obj create edildi
      /*
         1- consturctor ismi Calss name ile aynı olmalı.Cons. name Buyuk harf ile başlamalı
         2- constructor create edilirken name den sonra () {} mutlaka kullanılmalı.
