@@ -1,7 +1,6 @@
-package j24_Inheritance;
+package j24_Inheritance.inheritance01;
 
-import java.util.ArrayList;
-import java.util.List;
+import j24_Inheritance.inheritance01.*;
 
 public class Runner {
     /*

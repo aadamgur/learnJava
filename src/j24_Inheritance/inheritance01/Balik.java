@@ -1,6 +1,6 @@
-package j24_Inheritance;
+package j24_Inheritance.inheritance01;
 
-public class Balik extends Hayvanlar{
+public class Balik extends Hayvanlar {
     public Balik() {
         System.out.println("P'siz balik const call edildi");
     }
