@@ -21,7 +21,7 @@ public class C02_FileInputStreamException {
                     2) IOException, input ve output ile alakali tum problemlerde kullanilir. IOException,
                 FileNotFoundException'in yaptigi tum aksiyonları yapabilir dolayısıyla IOException kullanildiginda
                 FileNotException'in kullanilmasina gerek yoktur. IOException FileNotFoundException
-                Class'inin parent class Hz.Adem
+                Class'inin parent class Hz.Adem .
         */
     //public static void main(String[] args) throws FileNotFoundException {//main meth signature level exception(throws) zorunlu tanimlandi
     public static void main(String[] args) throws IOException {//main meth signature level exception(throws) zorunlu tanimlandi
